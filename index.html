@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <header class="main">
+
+    <div>
+      <img id="logo" src="images/OLXlogo.png" alt="logo">
+    </div>
+    <input type="text" id="countrySelect" placeholder="Pakistan">
+    <input type="text" id="searchBox" placeholder="Find Cars, Mobile Phones and more...">
+    <img src="images/searchicon.png" id="searchIcon" alt="searchIcon">
+    <div>
+      <a href="#" id="logIn"> Login</a>
+    </div>
+    <button id="sellButton"> <i class="fas fa-plus"></i><strong> SELL</strong></button>
+
+  </header>
+
+  <div class="Navbar">
+    <ul>
+      <li><a href=""> <b>ALL CATEGORIES</b> <i class="fas fa-chevron-down"></i> </a></li>
+      <li><a href="">Mobile Phones</a></li>
+      <li><a href="">Motorcycles</a></li>
+      <li><a href="">Houses</a></li>
+      <li><a href="">TV-Video-Audio</a></li>
+      <li><a href="">Tablets</a></li>
+      <li><a href="">Land & Plots</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <img class="banner" src="images/add.jpg" alt="add">
+  </div>
+
+
+  <!-- Based on your last search  -->
+  <div class="last-search-main">
+    <div class="last-search-sub-main">
+      <div class="last-search-first-line">
+        <h3 class="based-on-last-search">Based on your last search</h3>
+        <div class="viewmoreBtn">
+          <a href="#">viewmore</a>
+        </div>
+      </div>
+
+      <div class="last-search-card-main">
+
+        <div class="ind-card">
+          <div class="last-search-card">
+
+            <div class="iconAndImage">
+              <div>
+                <img class="last-search-card-image" src="images/laptop.jpg" alt="laptop">
+              </div>
+
+              <div class="icon">
+                <i class="far fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="price">
+              <h3>Rs 39,999</h3>
+              <p class="last-search-card-discription">Infinix Zero 8 128gb Built</p>
+            </div>
+            <div class="last-search-card-date">
+              <p>MAR 26</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="ind-card">
+          <div class="last-search-card">
+
+            <div class="iconAndImage">
+              <div>
+                <img class="last-search-card-image" src="images/laptop2.jpg" alt="laptop">
+              </div>
+
+              <div class="icon">
+                <i class="far fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="price">
+              <h3>Rs 30,999</h3>
+              <p class="last-search-card-discription">Laptop</p>
+            </div>
+            <div class="last-search-card-date">
+              <p>MAR 26</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ind-card">
+          <div class="last-search-card">
+
+            <div class="iconAndImage">
+              <div >
+                <img class="last-search-card-image" src="images/laptop3.jpg" alt="laptop">
+              </div>
+
+              <div class="icon">
+                <i class="far fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="price">
+              <h3>Rs 40,999</h3>
+              <p class="last-search-card-discription">Laptop</p>
+            </div>
+            <div class="last-search-card-date">
+              <p>MAR 26</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ind-card">
+          <div class="last-search-card">
+
+            <div class="iconAndImage">
+              <div>
+                <img class="last-search-card-image" src="images/laptop4.jpg" alt="laptop">
+              </div>
+
+              <div class="icon">
+                <i class="far fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="price">
+              <h3>Rs 39,999</h3>
+              <p class="last-search-card-discription">Laptop</p>
+            </div>
+            <div class="last-search-card-date">
+              <p>MAR 26</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <div id="recomm">
+    <p>Fresh recommendations </p>
+  </div>
+
+
+  <div class="mainCards">
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/Samsung_M31.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 41,999</h3>
+        <p class="discription">Samsung M31 - 6.4" Super AMOLED Display</p>
+        <p class="location">Lahore,<span id="date"> 21-11-2020</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/OPPO-F17-Ultra-Sleek-Leather.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 39,999</h3>
+        <p class="discription">OPPO F17 Ultra-Sleek Leather-Feel body design</p>
+        <p class="location">karachi,<span id="date"> 20-12-2020</span></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/OPPO-A15-Al-Triple-Camera.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 20,999</h3>
+        <p class="discription">OPPO A15 Al Triple Camera, Sleek And Thinner Curved Body,</p>
+        <p class="location">karachi,<span id="date"> 20-06-2018</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/Microsoft-13.5-inches-Multi-Touch-Surface-Laptop-3.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 155,999</h3>
+        <p class="discription">Microsoft 13.5" Multi-Touch Surface Laptop 3 (Matte Black)
+        </p>
+        <div>
+          <p class="location">Islamabad,<span id="date"> 15-01-2021</span></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="mainCards">
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/black-and-white-center-table-.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 13,999</h3>
+        <p class="discription">Wooden Rectangular Black and White Center Table
+        </p>
+        <p class="location">Islamabad,<span id="date"> 05-02-2021</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/vivo-v5-plus-mobile-phone.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 32,699</h3>
+        <p class="discription">Vivo V5 Plus Mobile Phone
+        </p>
+        <p class="location">Multan,<span id="date"> 09-03-2021</span></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/BQ-Mobile-BQ-5514L-Strike-Power-4G.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 19,999</h3>
+        <p class="discription">BQ Mobile BQ-5514L Strike Power 4G
+        </p>
+        <p class="location">Lahore,<span id="date"> 03-02-2020</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/Samsung-Galaxy-A10s-.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 59,799</h3>
+        <p class="discription">Samsung Galaxy A10s
+        </p>
+        <p class="location">karachi,<span id="date"> 20-12-2020</span></p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="mainCards">
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/wooden-laptop-table.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 2,499</h3>
+        <p class="discription">Wooden Laptop Table (with out fan)</p>
+        <p class="location">karachi,<span id="date"> 20-05-2020</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/Asus.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 139,999</h3>
+        <p class="discription">Asus beats Acer to the ‘world’s lightest 14-inch laptop’ crown</p>
+        <p class="location">Islamabad,<span id="date"> 06-04-2021</span></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/butterfly-design-shiny-golden-center-table.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 9,999</h3>
+        <p class="discription">Butterfly Design Shiny Golden Center Table
+        </p>
+        <p class="location">Multan,<span id="date"> 20-12-2019</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product"
+            src="images/HDMI-Switch-3-Port-4K-2K-Switcher-Splitter-Box-Ultra-HD-for-DVD-HDTV-PS3-PS4.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 875</h3>
+        <p class="discription">Hdmi Switch 3 Port 2K/4K</p>
+        <p class="location">karachi,<span id="date"> 20-03-2020</span></p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="mainCards">
+
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/wd_my_passport_hdd_hard_disk_25_inch_case_usb_301494074958.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 800</h3>
+        <p class="discription">WD My Passport HDD Hard Disk 2.5 Inch Case USB 3.0
+        </p>
+        <p class="location">Sialkot,<span id="date"> 10-12-2017</span></p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/wd_my_passport_hdd_hard_disk_25_inch_case_usb_301494074958.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 800</h3>
+        <p class="discription">WD My Passport HDD Hard Disk 2.5 Inch Case USB 3.0
+        </p>
+        <p class="location">Sialkot,<span id="date"> 10-12-2017</span></p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/Mobile-clip.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 1,999</h3>
+        <p class="discription">Original 12X Mobile Clip Lens Good Quality
+
+        </p>
+        <p class="location">karachi,<span id="date"> 20-12-2020</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/50w-Fiber-Laser-Marking-Machine.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 850,999</h3>
+        <p class="discription">50w Fiber Laser Marking Machine
+        </p>
+        <p class="location">Sukkur,<span id="date"> 09-06-2019</span></p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="mainCards">
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/car-mobile-stand.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 39,999</h3>
+        <p class="discription">Car Clip Mobile Holder – 360 Degree Rotation – Strong Grip – Solid Base</p>
+        <p class="location">Lahore,<span id="date"> 26-11-2020</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/Honda-city.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 2,640,000</h3>
+        <p class="discription">Honda city 1.3 i-VTEC Prosmatec
+        </p>
+        <p class="location">karachi,<span id="date"> 20-12-2020</span></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/vivo-mobile-phones.jpg" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs. 12,990</h3>
+        <p class="discription">Vivo Y15 Mobile Phone</p>
+        <p class="location">karachi,<span id="date"> 20-12-2020</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="images/infinix-zero-8-pakistan-priceoye-y9hql.webp" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs 29,999</h3>
+        <p class="discription">Infinix Zero 8
+        </p>
+        <p class="location">Islamabad,<span id="date"> 20-12-2019</span></p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="mainCards">
+
+    <div class="card">
+      <div class="imgIcon">
+        <div>
+          <img class="product" src="https://picsum.photos/500" alt="">
+        </div>
+        <div class="heartIcon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="price">
+        <h3>Rs 39,999</h3>
+        <p class="discription">Infinix Zero 8 128gb Built</p>
+        <p class="location">karachi,<span id="date"> 20-12-2020</span></p>
+      </div>
+    </div>
+  </div>
+  
+<div class="btndiv">
+  <button class="loadmorebtn">Load more</button>
+</div>
+
+
+  <table class="table1">
+    <tr>
+      <th>POPULAR CATERGORIES</th>
+      <th>TRENDING SEARCH</th>
+      <th>ABOUT US</th>
+      <th>OLX</th>
+      <th>FOLLOW US</th>
+    </tr>
+
+
+    <tr>
+      <td><a href="#" class="shop">Cars</a></td>
+      <td><a href="#" class="shop">Bikes</a></td>
+      <td><a href="#" class="shop">About OLX Group</a></td>
+      <td><a href="#" class="shop">Help</a></td>
+      <td ><div class="social-links">
+        <a href="#"> <i class="fab fa-facebook-f">&nbsp;</i></a>
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-linkedin"></i></a>
+
+
+      </div></td>
+    </tr>
+
+
+    <tr>
+      <td><a href="#" class="shop">Flates for rent</a></td>
+      <td><a href="#" class="shop">Watches</a></td>
+      <td><a href="#" class="shop">OLX Blog</a></td>
+      <td><a href="#" class="shop">sitemap</a></td>
+    </tr>
+
+    <tr>
+      <td><a href="#" class="shop">Jobs</a></td>
+      <td><a href="#" class="shop">Books</a></td>
+      <td><a href="#" class="shop">Contact Us</a></td>
+      <td><a href="#" class="shop">Legal & Privacy information</a></td>
+    </tr>
+
+    <tr>
+      <td><a href="#" class="shop">Mobile Phones</a></td>
+      <td><a href="#" class="shop">Dogs</a></td>
+      <td><a href="#" class="shop">OLX for Businesses</a></td>
+
+    </tr>
+
+
+
+
+
+    <tr>
+      <td><a href="#" class="shop">help</a></td>
+      <td><a href="#" class="shop">sitemap</a></td>
+      <td><a href="#" class="shop">legal and privacy information</a></td>
+    </tr>
+
+
+  </table>
+  <footer>
+    <a href="#"></a> <span class="text1"> Other Countries</span>
+    India-South Africa-Indonesia</a>
+
+    <section class="text2">
+      <span id="text2">Free Classified in Pakistan</span>
+      . &copy;	 2006-2021 OLX
+    </section>
+  </footer>
+</html>

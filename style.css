@@ -1,0 +1,380 @@
+/* Import Roboto font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+    margin: 0%;
+    margin-top: 0%;
+    font-family: 'Roboto', sans-serif;}
+
+header{
+    background-color: rgb(242, 243, 243);
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+#logIn{
+color: black;
+font-size: 15PX;
+font-weight: bold;
+margin-left: 20PX;
+text-decoration: none;
+margin-top: 20px;
+}
+
+
+#sellButton{
+    border: 6.5px solid;
+    width: 105px;
+    height: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-weight: bolder;
+    height: 50px;
+    font-size: 20;
+    border-color: #23e5db #3a77ff #3a77ff #ffce32 ;
+    margin-left: 20px;
+    color: #002f34;
+    background-color: white;
+    box-shadow: -1px 3px 10px #888888 ;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+#logo{
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+#countrySelect{
+    margin-left: 20px;
+
+}
+
+input{
+    border: 2px solid;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 0px;
+
+    color: rgb(141, 131, 131);
+    
+}
+
+
+#searchBox{
+    width: 45%;
+    margin-left: 10px;
+}
+
+#searchIcon{
+    width: 50px;
+    height: 47px;
+    margin-top: 0px;
+}
+
+
+
+.Navbar fas {
+    width: 200pxpx;
+}
+li{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    
+        
+    }
+  
+    
+    .Navbar li{
+        background-color: #f9f9f9;
+        width: 100%;
+        border-bottom: 1px solid #e0e0e0;
+       
+    margin-top: 80px;
+     
+
+     
+      }
+      .Navbar ul {
+        display: flex;
+    justify-content: space-between;
+        align-items: center;
+      }
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.last-search-main{
+    width: 75%;
+    background-color: #ebeeef;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.based-on-last-search{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.last-search-first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.viewmoreBtn a{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.last-search-card-main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.last-search-sub-main{
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.last-search-card{
+    background-color: white;
+    border-radius: 2%;
+    margin-top: 0%;
+    width: 280px;
+    height: 210px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    
+
+}
+
+.ind-card{
+    margin-bottom: 20px;
+}
+
+.last-search-card-product{
+    width: 40%;
+    margin-left: 30%;
+    justify-content: center;
+
+
+}
+
+.last-search-card-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.iconAndImage{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.icon{
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+.last-search-card-discription{
+    /* padding-top: 5px; */
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.last-search-card-date{
+    font-size: 10px;
+    text-align: end;
+    color: rgba(0, 47, 52, 0.64);
+}
+
+.last-search-card-image{
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+
+#recomm{
+    font-size: 130%;
+    color: rgb(53, 53, 53);
+    margin-left: 7%;
+}
+
+.product{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 65%;
+    height: 50%;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+
+
+
+
+
+
+.mainCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1% 3%;
+}
+.card{
+    border: rgb(131, 127, 127) 0.1px solid;
+    border-radius: 2%;
+    margin-top: 0%;
+    width: 250px;
+    height: 350px;
+    
+}
+
+.imgIcon{
+    display: inline-flex;
+    align-items: flex-start;
+
+}
+
+.heartIcon{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.price{
+    border-left: rgb(230, 184, 0) 5px solid;
+    padding:2%;
+}
+.discription{
+    padding-top: 5px;
+    font-size: 15px;
+}
+.location{
+    padding-top: 15px;
+    font-size: 13px;
+}
+#date{
+    float: right;
+    font-size: 12px;
+}
+
+.table1{
+    font-size: 13px;
+    width: 100%;
+    border-top: 1px solid rgba(0,47,52,.2);
+    font-size: 14px;
+    line-height: 20px;
+    
+    background: #ebeeef;
+    margin-top: 7.8rem;
+    text-align: center;
+}
+
+.table1 th{
+    font-weight: 700;
+}
+
+.shop:hover{
+   
+    border-bottom-color: #0b0c0c;
+}
+.shop{
+    color: rgba(0,47,52,.64);
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+footer{
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    
+
+    line-height: 18px
+}
+
+.text1{
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.text2{
+    text-align: right;
+    margin: 0;
+}
+
+#text2{
+    font-weight: 700;
+   
+    
+}
+
+.loadmorebtn{
+    width: 200;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.loadmorebtn:hover{
+    border: 5px solid black;
+}
+
+.btndiv{
+    text-align: center;
+}
+
+.social-links a i{
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    color: green;
+    margin-right: 5px;
+    font-size: 10px;
+ 
+}
+
